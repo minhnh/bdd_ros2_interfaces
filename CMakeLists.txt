@@ -13,6 +13,9 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Event.msg"
+  "msg/Trinary.msg"
+  "msg/ParamValue.msg"
+  "action/Behaviour.action"
   DEPENDENCIES builtin_interfaces
 )
 
