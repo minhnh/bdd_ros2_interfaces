@@ -1,0 +1,2 @@
+unique_identifier_msgs/UUID context_id
+bdd_ros2_interfaces/FluentStatus[] fluents

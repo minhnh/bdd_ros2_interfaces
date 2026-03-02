@@ -1,0 +1,3 @@
+string representation
+bdd_ros2_interfaces/TrinaryStamped[] trinaries
+bdd_ros2_interfaces/TrinaryStamped result

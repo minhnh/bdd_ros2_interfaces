@@ -9,6 +9,7 @@ find_package(ament_cmake REQUIRED)
 
 # MESSAGES
 find_package(builtin_interfaces REQUIRED)
+find_package(unique_identifier_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
@@ -16,6 +17,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Trinary.msg"
   "msg/TrinaryStamped.msg"
   "msg/ParamValue.msg"
+  "msg/FluentStatus.msg"
+  "msg/ScenarioStatus.msg"
+  "msg/ScenarioStatusList.msg"
   "action/Behaviour.action"
   DEPENDENCIES builtin_interfaces
 )
