@@ -1,3 +1,5 @@
 string representation
+builtin_interfaces/Time start_time
+builtin_interfaces/Time end_time
 bdd_ros2_interfaces/TrinaryStamped[] trinaries
 bdd_ros2_interfaces/TrinaryStamped result
