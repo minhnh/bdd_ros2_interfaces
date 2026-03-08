@@ -18,6 +18,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/TrinaryStamped.msg"
   "msg/ParamValue.msg"
   "msg/FluentStatus.msg"
+  "msg/BehaviourStatus.msg"
   "msg/ScenarioStatus.msg"
   "msg/ScenarioStatusList.msg"
   "action/Behaviour.action"

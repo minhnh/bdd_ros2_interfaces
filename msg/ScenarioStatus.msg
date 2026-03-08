@@ -1,5 +1,7 @@
 unique_identifier_msgs/UUID context_id
 builtin_interfaces/Time start_time
 builtin_interfaces/Time end_time
+string representation
 bdd_ros2_interfaces/FluentStatus[] fluents
+bdd_ros2_interfaces/BehaviourStatus behaviour
 bdd_ros2_interfaces/TrinaryStamped result
