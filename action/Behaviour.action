@@ -1,5 +1,6 @@
 unique_identifier_msgs/UUID scenario_context_id
 bdd_ros2_interfaces/ParamValue[] parameters
+bdd_ros2_interfaces/Configuration[] configs
 ---
 bdd_ros2_interfaces/TrinaryStamped result
 ---
