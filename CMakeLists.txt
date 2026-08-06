@@ -16,6 +16,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Event.msg"
   "msg/Trinary.msg"
   "msg/TrinaryStamped.msg"
+  "msg/Collision.msg"
   "msg/ParamValue.msg"
   "msg/Configuration.msg"
   "msg/FluentStatus.msg"

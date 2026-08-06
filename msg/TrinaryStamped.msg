@@ -1,3 +1,4 @@
 unique_identifier_msgs/UUID scenario_context_id
 builtin_interfaces/Time stamp
 bdd_ros2_interfaces/Trinary trinary
+string reason

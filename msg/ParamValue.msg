@@ -1,4 +1,4 @@
-# Provide values for a parameter of some parent concept, e.g., target objects
-# in a pick-place behaviour.
-string param_rel_uri        # URI of the parameter's relation to the parent concept
+# Provide values for a behaviour variable, e.g., target objects in a pick-place
+# behaviour.
+string variable_uri         # Full URI of the scenario variable
 string[] param_val_uris
